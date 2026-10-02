@@ -25,6 +25,13 @@ academic_year=input("Enter academic year: ")
 
 s1.setprimarydetails(fullname, date_of_birth, age, gender, mobile_number, preffered_language, school_college_name, class_grade, board_curriculum, academic_year)
 
+tution subjects=input("enter tution sub")
+subject levels=input("enter sub lev")
+topics needinghelp= input("enter the topics")
+preffered communnication method=input("enter the method")
 
-print("Student details:")
-print("Full Name:", s1.full_name)
+
+s1.academicrelateddetails(tuition_subjects,subject_levels,preferred_communication_method) 
+
+parent_guardian_name=input("enter parent guardian name")
+parent_guardian_relationship=input("enter parent_guardian_relationship")
