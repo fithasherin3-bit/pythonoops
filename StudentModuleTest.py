@@ -35,3 +35,4 @@ s1.academicrelateddetails(tuition_subjects,subject_levels,preferred_communicatio
 
 parent_guardian_name=input("enter parent guardian name")
 parent_guardian_relationship=input("enter parent_guardian_relationship")
+ 
